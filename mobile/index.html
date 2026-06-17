@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Núi Rùa Coffee Farm - Bắc Hà, Lào Cai (Mobile)</title>
+    <meta name="description"
+        content="Trải nghiệm hương vị cà phê sạch tự nhiên từ nông trại Núi Rùa Coffee Farm tại Bắc Hà, Lào Cai.">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <button id="menu-btn" aria-label="Open menu">☰</button>
+        <div class="logo-container">
+            <img src="../images/logo.png" alt="Núi Rùa Bắc Hà" class="logo-img">
+        </div>
+        <div class="cart" id="cart-btn" aria-label="View cart">
+            🛒<span class="cart-count">0</span>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Menu Overlay -->
+    <nav id="mobile-menu">
+        <button id="menu-close-btn" aria-label="Close menu">&times;</button>
+        <div class="drawer-logo">
+            <img src="../images/logo.png" alt="Núi Rùa Bắc Hà" class="logo-img logo-img-white">
+        </div>
+        <div class="drawer-links">
+            <a href="#" class="menu-link active">Trang chủ</a>
+            <a href="#about" class="menu-link">Giới thiệu</a>
+            <a href="#products" class="menu-link">Sản phẩm</a>
+            <a href="#experience" class="menu-link">Trải nghiệm</a>
+            <a href="#news" class="menu-link">Tin tức</a>
+            <a href="#checkin" class="menu-link">Check-in</a>
+            <a href="#footer" class="menu-link">Liên hệ</a>
+        </div>
+        <div class="drawer-promo">
+            <div class="promo-tag">Gieo mầm xanh - Gặt niềm lành</div>
+            <p>Núi Rùa Coffee Farm - Hương vị thiên nhiên hoang sơ.</p>
+            <img src="../images/logo.png" alt="Coffee cup" class="promo-img">
+            <a href="#about" class="btn-promo menu-link">Về Núi Rùa</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <img src="../images/hero.jpg" alt="Núi Rùa Coffee landscape" class="hero-bg">
+        <div class="hero-content">
+            <span class="hero-tag">Gieo mầm xanh - Gặt niềm lành</span>
+            <h1>NÚI RÙA COFFEE</h1>
+            <p>
+                Nơi thiên nhiên và con người hòa quyện, tạo nên những hạt cà phê chất lượng và trải nghiệm đáng nhớ.
+            </p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">Khám phá ngay</a>
+                <a href="#about" class="btn btn-outline">Về Núi Rùa</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Features Grid -->
+    <section class="features-wrapper">
+        <div class="features-card">
+            <div class="feature-box">
+                <span class="feature-icon">🌿</span>
+                <h3>100% Tự nhiên</h3>
+                <p>Canh tác bền vững</p>
+            </div>
+            <div class="feature-box">
+                <span class="feature-icon">☕</span>
+                <h3>Cà phê chất lượng</h3>
+                <p>Robusta & Arabica</p>
+            </div>
+            <div class="feature-box">
+                <span class="feature-icon">🏕️</span>
+                <h3>Trải nghiệm độc đáo</h3>
+                <p>Farm - Coffee - Culture</p>
+            </div>
+            <div class="feature-box">
+                <span class="feature-icon">🤝</span>
+                <h3>Gắn kết cộng đồng</h3>
+                <p>Cùng nhau phát triển</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <span class="section-tag">Về Núi Rùa Coffee</span>
+        <h2>Hành trình từ vùng đất diệu kỳ</h2>
+
+        <p class="about-desc">
+            Tọa lạc tại độ cao hơn 1.000m ở Bắc Hà (Lào Cai), Núi Rùa Coffee Farm được thiên nhiên ưu đãi với khí hậu
+            mát mẻ quanh năm, đất đỏ bazan màu mỡ và nguồn nước suối tinh khiết. Chúng tôi trồng và chăm sóc từng gốc cà
+            phê bằng tình yêu và sự tôn trọng tự nhiên.
+        </p>
+
+        <div class="about-polaroid">
+            <img src="../images/hero2.jpg" alt="Polaroid của Núi Rùa">
+        </div>
+
+        <a href="#experience" class="btn btn-dark">Tìm hiểu thêm &rarr;</a>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <span class="section-tag">Sản phẩm nổi bật</span>
+        <h2>Cà phê sạch từ nông trại</h2>
+        <p class="section-subtitle">Hương vị tinh khiết kết tinh từ đất trời</p>
+
+        <div class="product-list">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-img-holder">
+                    <img src="../images/coffee1.jpg" alt="Cà phê Robusta">
+                </div>
+                <div class="product-card-body">
+                    <h3>Cà phê Robusta</h3>
+                    <p>Đậm đà, mạnh mẽ hương vị núi rừng.</p>
+                    <div class="product-footer">
+                        <span class="price">120.000đ</span>
+                        <button class="add-to-cart" data-name="Cà phê Robusta" data-price="120000">🛒</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-img-holder">
+                    <img src="../images/coffee2.jpg" alt="Cà phê Arabica">
+                </div>
+                <div class="product-card-body">
+                    <h3>Cà phê Arabica</h3>
+                    <p>Thanh nhẹ, thơm ngọt hậu vị tinh tế.</p>
+                    <div class="product-footer">
+                        <span class="price">150.000đ</span>
+                        <button class="add-to-cart" data-name="Cà phê Arabica" data-price="150000">🛒</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-img-holder">
+                    <img src="../images/coffee1.jpg" alt="Hạt giống cây giống">
+                </div>
+                <div class="product-card-body">
+                    <h3>Hạt giống & Cây giống</h3>
+                    <p>Đóng chai cẩn thận, ươm mầm vườn xanh.</p>
+                    <div class="product-footer">
+                        <span class="price">80.000đ</span>
+                        <button class="add-to-cart" data-name="Hạt giống & Cây giống" data-price="80000">🛒</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="action-btn-wrapper">
+            <a href="#footer" class="btn btn-outline">Xem tất cả sản phẩm</a>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <span class="section-tag">Trải nghiệm tại Núi Rùa</span>
+        <h2>Đến để cảm nhận - Ở lại để yêu thương</h2>
+
+        <div class="experience-list">
+            <!-- Exp Card 1 -->
+            <div class="exp-card">
+                <img src="../images/exp1.jpg" alt="Tham quan nông trại">
+                <div class="exp-details">
+                    <h3>Tham quan nông trại</h3>
+                    <p>Khám phá quy trình trồng và chăm sóc cà phê sạch.</p>
+                    <a href="#footer" class="exp-more">Xem thêm &rarr;</a>
+                </div>
+            </div>
+            <!-- Exp Card 2 -->
+            <div class="exp-card">
+                <img src="../images/exp2.jpg" alt="Trải nghiệm hái cà phê">
+                <div class="exp-details">
+                    <h3>Trải nghiệm hái cà phê</h3>
+                    <p>Tự tay hái và chọn những quả cà phê chín mọng.</p>
+                    <a href="#footer" class="exp-more">Xem thêm &rarr;</a>
+                </div>
+            </div>
+            <!-- Exp Card 3 -->
+            <div class="exp-card">
+                <img src="../images/exp1.jpg" alt="Thưởng thức cà phê">
+                <div class="exp-details">
+                    <h3>Thưởng thức cà phê</h3>
+                    <p>Thưởng thức ly cà phê ấm nóng giữa núi rừng thơ mộng.</p>
+                    <a href="#footer" class="exp-more">Xem thêm &rarr;</a>
+                </div>
+            </div>
+            <!-- Exp Card 4 -->
+            <div class="exp-card">
+                <img src="../images/exp2.jpg" alt="Check-in & Relax">
+                <div class="exp-details">
+                    <h3>Check-in & Relax</h3>
+                    <p>Những góc view mây núi tuyệt đẹp để nghỉ ngơi thư giãn.</p>
+                    <a href="#footer" class="exp-more">Xem thêm &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="action-btn-wrapper">
+            <a href="#footer" class="btn btn-outline-white">Xem tất cả trải nghiệm</a>
+        </div>
+    </section>
+
+    <!-- News & Events Section -->
+    <section class="news" id="news">
+        <span class="section-tag">Tin tức & Sự kiện</span>
+        <h2>Bản tin Núi Rùa Farm</h2>
+
+        <div class="news-list">
+            <!-- News Item 1 -->
+            <div class="news-item">
+                <img src="../images/coffee2.jpg" alt="Mùa hoa cà phê" class="news-img">
+                <div class="news-info">
+                    <span class="news-date">20/05/2026</span>
+                    <h3>Mùa hoa cà phê nở trắng nương rẫy Bắc Hà</h3>
+                    <a href="#footer" class="news-more">Đọc thêm &rarr;</a>
+                </div>
+            </div>
+            <!-- News Item 2 -->
+            <div class="news-item">
+                <img src="../images/logo.png" alt="Chứng nhận OCOP" class="news-img">
+                <div class="news-info">
+                    <span class="news-date">12/05/2026</span>
+                    <h3>Núi Rùa Coffee Farm đạt chứng nhận OCOP 3 sao</h3>
+                    <a href="#footer" class="news-more">Đọc thêm &rarr;</a>
+                </div>
+            </div>
+            <!-- News Item 3 -->
+            <div class="news-item">
+                <img src="../images/coffee1.jpg" alt="Workshop pha chế" class="news-img">
+                <div class="news-info">
+                    <span class="news-date">02/05/2026</span>
+                    <h3>Workshop pha chế cà phê thủ công tại Núi Rùa</h3>
+                    <a href="#footer" class="news-more">Đọc thêm &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="action-btn-wrapper">
+            <a href="#footer" class="btn btn-outline">Xem tất cả tin tức</a>
+        </div>
+    </section>
+
+    <!-- Check-in Gallery -->
+    <section class="checkin" id="checkin">
+        <span class="section-tag">Góc Check-in</span>
+        <h2>Khoảnh khắc tại vườn</h2>
+
+        <div class="checkin-grid">
+            <img src="../images/exp1.jpg" alt="Check-in 1">
+            <img src="../images/exp2.jpg" alt="Check-in 2">
+            <img src="../images/coffee1.jpg" alt="Check-in 3">
+            <img src="../images/coffee2.jpg" alt="Check-in 4">
+            <img src="../images/hero.jpg" alt="Check-in 5">
+            <img src="../images/exp1.jpg" alt="Check-in 6">
+        </div>
+
+        <div class="action-btn-wrapper">
+            <a href="#footer" class="btn btn-outline">Xem thêm ảnh</a>
+        </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="reviews">
+        <span class="section-tag">Đánh giá từ khách hàng</span>
+        <h2>Chia sẻ của khách ghé thăm</h2>
+
+        <div class="reviews-slider">
+            <!-- Review 1 -->
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="review-avatar">MA</div>
+                    <div class="review-meta">
+                        <h4>Minh Anh</h4>
+                        <div class="review-stars">★★★★★</div>
+                    </div>
+                </div>
+                <p class="review-text">
+                    "Không gian tuyệt đẹp, cà phê ngon và nhân viên rất thân thiện. Cảm giác bình yên hiếm gặp. Sẽ quay
+                    lại nhiều lần!"
+                </p>
+            </div>
+            <!-- Review 2 -->
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="review-avatar">HL</div>
+                    <div class="review-meta">
+                        <h4>Hoàng Long</h4>
+                        <div class="review-stars">★★★★★</div>
+                    </div>
+                </div>
+                <p class="review-text">
+                    "Trải nghiệm hái cà phê và tự tay xay pha chế rất thú vị. Cà phê đậm chất núi rừng Bắc Hà mộc mạc."
+                </p>
+            </div>
+        </div>
+
+        <div class="action-btn-wrapper">
+            <a href="#footer" class="btn btn-outline">Xem thêm đánh giá</a>
+        </div>
+    </section>
+
+    <!-- Newsletter Form -->
+    <section class="newsletter">
+        <h3>ĐĂNG KÝ NHẬN TIN</h3>
+        <p>Nhận thông tin mới nhất về sản phẩm, ưu đãi và sự kiện từ chúng tôi.</p>
+        <form class="newsletter-form" id="newsletter-form-mobile">
+            <input type="email" placeholder="Nhập email của bạn..." required>
+            <button type="submit">&rarr;</button>
+        </form>
+
+        <div class="newsletter-socials">
+            <a href="#">FB</a>
+            <a href="#">IG</a>
+            <a href="#">YT</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <img src="../images/logo.png" alt="Núi Rùa Bắc Hà" class="logo-img logo-img-white footer-logo-img">
+        <p class="footer-tagline">Gieo mầm xanh – Gặt niềm lành</p>
+
+        <div class="footer-info">
+            <p>📍 Na Kim, Bắc Hà, Lào Cai</p>
+            <p>📞 0988.666.888</p>
+            <p>✉️ info@nuirua.vn</p>
+        </div>
+
+        <div class="footer-links">
+            <a href="#">Giới thiệu</a> |
+            <a href="#">Sản phẩm</a> |
+            <a href="#">Trải nghiệm</a> |
+            <a href="#">Check-in</a> |
+            <a href="#">Tin tức</a>
+        </div>
+
+        <p class="copyright">&copy; 2026 Núi Rùa Coffee. All rights reserved.</p>
+    </footer>
+
+    <!-- Floating Bottom CTA -->
+    <div class="floating-cta">
+        <a href="tel:0988666888" class="btn-floating-cta">
+            📞 LIÊN HỆ NGAY
+        </a>
+    </div>
+
+    <!-- JS script -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
